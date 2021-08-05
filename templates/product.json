@@ -97,28 +97,6 @@
         "enable_video_looping": false
       }
     },
-    "product-recommendations": {
-      "type": "product-recommendations",
-      "settings": {
-        "heading": "You may also like",
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "add_image_padding": false,
-        "show_vendor": false
-      }
-    },
-    "162818050955fc73ec": {
-      "type": "page",
-      "settings": {
-        "page": ""
-      }
-    },
-    "16281810823ed19fd0": {
-      "type": "contact-form",
-      "settings": {
-        "heading": "Contact form"
-      }
-    },
     "1628181090e6560df2": {
       "type": "image-banner",
       "blocks": {
@@ -156,6 +134,12 @@
         "color_scheme": "background-1",
         "stack_images_on_mobile": true,
         "adapt_height_first_image": false
+      }
+    },
+    "162818050955fc73ec": {
+      "type": "page",
+      "settings": {
+        "page": "testing-pages"
       }
     },
     "1628181151a640f647": {
@@ -198,12 +182,6 @@
         "mobile_layout": "collage"
       }
     },
-    "1628181160b7f21792": {
-      "type": "apps",
-      "settings": {
-        "include_margins": true
-      }
-    },
     "162818117214b82176": {
       "type": "image-with-text",
       "blocks": {
@@ -237,16 +215,31 @@
         "color_scheme": "background-1",
         "layout": "image_first"
       }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "heading": "You may also like",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_vendor": false
+      }
+    },
+    "16281810823ed19fd0": {
+      "type": "contact-form",
+      "settings": {
+        "heading": "Contact form"
+      }
     }
   },
   "order": [
     "main",
-    "product-recommendations",
-    "162818050955fc73ec",
-    "16281810823ed19fd0",
     "1628181090e6560df2",
+    "162818050955fc73ec",
     "1628181151a640f647",
-    "1628181160b7f21792",
-    "162818117214b82176"
+    "162818117214b82176",
+    "product-recommendations",
+    "16281810823ed19fd0"
   ]
 }
