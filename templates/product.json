@@ -69,6 +69,13 @@
             "link_label": "Pop-up link text",
             "page": "testing-pages"
           }
+        },
+        "c0c9fd69-4eab-449f-94d9-3e8825513f96": {
+          "type": "text",
+          "settings": {
+            "text": "Text block",
+            "text_style": "body"
+          }
         }
       },
       "block_order": [
@@ -82,7 +89,8 @@
         "description",
         "share",
         "45e27932-3fdc-4730-a3d1-430b2686d8ce",
-        "d252c400-2607-4986-a21f-b5769ffd4d73"
+        "d252c400-2607-4986-a21f-b5769ffd4d73",
+        "c0c9fd69-4eab-449f-94d9-3e8825513f96"
       ],
       "settings": {
         "enable_sticky_info": true,
