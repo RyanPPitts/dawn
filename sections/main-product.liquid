@@ -97,7 +97,19 @@
               </div>
             {%- endif -%}
         
+         {%- comment -%}
+		Native metafields from Shopify
+      {%- endcomment -%}	      	  {{ product.metafields.my_fields.dimension }}
+          {{ product.metafields.my_fields.number }}
+          {{ product.metafields.my_fields.page }}
+          {{ product.metafields.my_fields.text }}
+          {{ product.metafields.my_fields.boolean }}
         
+        <div>
+          src="{{ product.metafields.my_fields.file }}"
+        <div>
+          {{ product.metafields.my_fields.time }}
+          {{ product.metafields.my_fields.color }} 
         
         
         
