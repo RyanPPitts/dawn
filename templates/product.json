@@ -15,6 +15,11 @@
           "settings": {
           }
         },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
         "subtitle": {
           "type": "text",
           "settings": {
@@ -35,6 +40,7 @@
         },
         "quantity_selector": {
           "type": "quantity_selector",
+          "disabled": true,
           "settings": {
           }
         },
@@ -44,18 +50,15 @@
             "show_dynamic_checkout": true
           }
         },
-        "description": {
-          "type": "description",
-          "settings": {
-          }
-        },
         "share": {
           "type": "share",
+          "disabled": true,
           "settings": {
           }
         },
         "45e27932-3fdc-4730-a3d1-430b2686d8ce": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Collapsible tab",
             "content": "<p>test1<\/p>",
@@ -65,6 +68,7 @@
         },
         "d252c400-2607-4986-a21f-b5769ffd4d73": {
           "type": "popup",
+          "disabled": true,
           "settings": {
             "link_label": "Pop-up link text",
             "page": "testing-pages"
@@ -72,6 +76,7 @@
         },
         "c0c9fd69-4eab-449f-94d9-3e8825513f96": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "Text block",
             "text_style": "body"
@@ -81,12 +86,12 @@
       "block_order": [
         "vendor",
         "title",
+        "description",
         "subtitle",
         "price",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
-        "description",
         "share",
         "45e27932-3fdc-4730-a3d1-430b2686d8ce",
         "d252c400-2607-4986-a21f-b5769ffd4d73",
