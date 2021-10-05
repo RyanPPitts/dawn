@@ -10,6 +10,15 @@
             "text_style": "uppercase"
           }
         },
+        "4a963cdc-197d-4214-96c9-a2ee0652d144": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Size : {{ product.metafields.my_fields.dimension | metafield_text }}",
+            "content": "<p>{{ product.metafields.my_fields.number.value }}<\/p>",
+            "page": "testing-pages",
+            "icon": "washing"
+          }
+        },
         "title": {
           "type": "title",
           "settings": {
@@ -48,27 +57,18 @@
           "settings": {
             "show_dynamic_checkout": true
           }
-        },
-        "4a963cdc-197d-4214-96c9-a2ee0652d144": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Size : {{ product.metafields.my_fields.dimension | metafield_text }}",
-            "content": "<p>{{ product.metafields.my_fields.number.value }}<\/p>",
-            "page": "testing-pages",
-            "icon": "washing"
-          }
         }
       },
       "block_order": [
         "vendor",
+        "4a963cdc-197d-4214-96c9-a2ee0652d144",
         "title",
         "description",
         "subtitle",
         "price",
         "variant_picker",
         "quantity_selector",
-        "buy_buttons",
-        "4a963cdc-197d-4214-96c9-a2ee0652d144"
+        "buy_buttons"
       ],
       "settings": {
         "enable_sticky_info": true,
