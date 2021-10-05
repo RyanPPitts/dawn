@@ -6,7 +6,7 @@
         "vendor": {
           "type": "text",
           "settings": {
-            "text": "{{ product.vendor }}",
+            "text": "{{ product.vendor }}{{ product.metafields.my_fields.time | metafield_text }}",
             "text_style": "uppercase"
           }
         },
