@@ -79,11 +79,18 @@
         "color_scheme": "background-1",
         "layout": "image_first"
       }
+    },
+    "163347352324edcacb": {
+      "type": "page",
+      "settings": {
+        "page": "testing-pages"
+      }
     }
   },
   "order": [
     "image_banner",
     "featured_products",
-    "image_text"
+    "image_text",
+    "163347352324edcacb"
   ]
 }

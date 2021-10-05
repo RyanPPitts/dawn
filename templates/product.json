@@ -294,7 +294,7 @@
         "162818117214b82176-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/d6d8a9a775b0203e8cfd5f2e35b7fcf8.jpg",
+        "image": "{{ product.metafields.my_fields.image_file.value }}",
         "height": "adapt",
         "color_scheme": "background-2",
         "layout": "image_first"
